@@ -56,7 +56,6 @@ for K in [2, 5, 10, 20]:
 
 # ----------------------------
 # ZADATAK 7.5.2 - 6
-# Graf ovisnosti J (inertia) o broju grupa K
 # ----------------------------
 inertias = []
 k_values = range(1, 10)
