@@ -74,7 +74,7 @@ predictions = model.predict(x_test_s)
 score = model.evaluate(x_test_s, y_test_s, verbose = 0)
 
 
-# TODO: Prikazi test accuracy i matricu zabune
+# TODO: Prikazi test accuracy (evaluacija) i matricu zabune
 
 score = model.evaluate(x_test_s, y_test_s, verbose=0)
 print("Test loss:", score[0])
